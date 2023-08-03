@@ -43,10 +43,10 @@ std::string rotString(std::string &text, int n)
 int main()
 {
     std::string text;
-    std::cout << "Enter your text to be Caesar-encoded (ASCI alphabet, special characters will not be encoded): \n";
+    std::cout << "Enter your text to be Caesar-encoded (ASCII alphabet, special characters will not be encoded): \n";
     std::getline(std::cin, text);
     int n = 0;
-    std::cout << "Encode by how many digits? (ASCI alphabet: modulo 26): \n";
+    std::cout << "Encode by how many digits? (ASCII alphabet: modulo 26): \n";
     std::cin >> n;
 
     // print encoded text to terminal
